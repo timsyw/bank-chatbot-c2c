@@ -25,7 +25,7 @@ message_flow = [
         "id": "below_18",
         "message": "You are below the age of 18. Legally you cannot open a bank account by yourself.\nYou must create an account with a parent of legal guardian, however you may still proceed with the chatbot.",
         "options":["Proceed.", "Exit Program."],
-        "next": [1, 5]
+        "next": [6, 5]
     },
     #you are 18 and above 4
     {
@@ -94,7 +94,7 @@ message_flow = [
     # random Facts about the bank 13
     {
         "id": "random_fun_facts_about_bank1",
-        "message": "*for demonstration purposes \n Our mission as at Tim Bank is to help struggling families who are working class navigate the many stressers of life\n Our job is provide a service that is accesible to everybody.",
+        "message": "*for demonstration purposes \n Our mission at Tim Bank is to help struggling families who are working class navigate the many stressers of life\n Our job is provide a service that is accesible to everybody.",
         "options":["Go Back", "Return to Help Menu"],
         "next": [12, 7]
     },

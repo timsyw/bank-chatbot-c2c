@@ -14,6 +14,7 @@ def try_user_input_int():
 
 def print_message(messageid):
     print(message_flow[messageid]["message"])
+    print("")
 
 def print_options(messageid):
     current_options = message_flow[messageid]["options"]
