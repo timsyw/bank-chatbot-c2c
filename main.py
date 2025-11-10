@@ -26,12 +26,14 @@ def print_options(messageid):
 def ask_user_next(messageid, numberOfOptions):
     user_number = -1
     user_number = try_user_input_int()
+    print("")
     while True:
         if user_number > 0 & user_number <= numberOfOptions:
             break
         else:
             print("Please enter a number only in the list of options!\n")
             user_number = try_user_input_int()
+            print("")
     return message_flow[messageid]["next"][user_number-1]
     
 
