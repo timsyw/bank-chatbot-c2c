@@ -18,3 +18,6 @@ The prompt/scenario below:
     You are working for a bank/financial institution/credit card company and you need to create a chatbot that will:
     - help new customers choose what kind of account they want 
     - help get them started signing up.
+
+
+resources I used: https://docs.python.org/3/
