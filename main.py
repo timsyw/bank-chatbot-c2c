@@ -5,7 +5,7 @@ current_message_id = 0
 def try_user_input_int():
     while True:
         try:
-            user_input = int(input("Response: \n"))
+            user_input = int(input("Response: "))
             break
         except ValueError:
             print("Please input a number that is an integer!")
